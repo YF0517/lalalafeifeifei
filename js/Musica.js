@@ -1,0 +1,30 @@
+$("#main1").mouseover(
+	function(){
+		$("#mo1").fadeIn(1000);
+		$("#img1").fadeIn(1000);
+		$(".mobile1-content2").fadeIn(1000);
+		$("#main-word1").fadeIn(1000);	
+	}
+);
+$("#main2").mouseover(
+	function(){
+		$(".mobile2").fadeIn(1000);
+		$(".mobile2-content1").fadeIn(1000);
+		$(".mobile2-limg").fadeIn(3000);
+		$(".main-word2").fadeIn(1000);	
+	}
+);
+$("#main3").mouseover(
+	function(){
+		$(".mobile3").fadeIn(1000);
+		$("#main-word3").fadeIn(1000);	
+	}
+);
+$("#main4").mouseover(
+	function(){
+		$("#mo4").fadeIn(1000);
+		$(".main-img4").fadeIn(1000);
+		$("#img4").fadeIn(1000);
+		$(".main-word4").fadeIn(1000);	
+	}
+);
