@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>正在播放 ：歌单：今日推荐歌曲</title>
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+		<link rel="stylesheet" href="css/bofangqi1.css" />
+	</head>
+	<body onload="init()">
+		<h1 class="bg_logo"><a href="#"><span><img src="img/com/player_logo.png"></span></a></h1>
+		<div class="mod_player_login">
+			<a class="player_login_link" href="#">
+				<span  class="log_txt">登录</span>
+			</a>
+			<a class="player_login_link" href="#">
+				<span class="log_txt">设置</span>
+			</a>
+		</div>
+		<!--中间部分开始-->
+		<div class="mod_player">
+			<!--播放列表开始-->
+			<div class="player__bd">
+				<!--左侧列表开始-->
+				<div class="player_left">
+					<div class="left_top">
+						<ul>
+							<li>
+								<a href="#" class="list1">
+									<span class="img1"></span>
+									<span>收藏</span>
+								</a>
+							</li>
+							<li>
+								<a href="#" class="list1">
+									<span class="img2"></span>
+									<span>添加到</span>
+								</a>
+							</li>
+							<li>
+								<a href="#" class="list1">
+									<span class="img3"></span>
+									<span>下载</span>
+								</a>
+							</li>
+							<li>
+								<a href="#" class="list1">
+									<span class="img4"></span>
+									<span>删除</span>
+								</a>
+							</li>
+							<li>
+								<a href="#" class="list1">
+									<span class="img5"></span>
+									<span>清空列表</span>
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="left_content">
+					    <div class="scrollbar"></div>
+						<ul class="header">
+							<li class="head_xuanxiang1"></li>
+							<li class="head_song">歌曲</li>
+							<li class="head_singer">歌手</li>
+							<li class="head_time">时长</li>
+							<div class="mask1">
+								<ul>
+									<li class="li1"></li>
+									<li class="li2"></li>
+									<li class="li3"></li>
+									<li class="li4"></li>
+								</ul>
+							</div>
+							<div class="mask2"></div>
+						</ul>
+						<ul class="content_xuanxiang">
+							<li class="head_xuanxiang"></li>
+							<div id="song_num">1</div>
+							<li class="head_song" title="I wanna get love"><a href="#" id="songone">I wanna get love</a></li>
+							<li class="head_singer" >蔡徐坤</li>
+							<li class="head_time">03:14</li>
+							<div class="mask1">
+								<ul>
+									<li class="li1"></li>
+									<li class="li2"></li>
+									<li class="li3"></li>
+									<li class="li4"></li>
+								</ul>
+							</div>
+							<div class="mask2"></div>
+						</ul>
+						<ul class="content_xuanxiang">
+							<li class="head_xuanxiang"></li>
+							<div id="song_num">2</div>
+							<li class="head_song" title="Million Years Ago"><a href="#" id="songtwo">Million Years Ago</a></li>
+							<li class="head_singer">Adele</li>
+							<li class="head_time">04:45</li>
+							<div class="mask1">
+								<ul>
+									<li class="li1"></li>
+									<li class="li2"></li>
+									<li class="li3"></li>
+									<li class="li4"></li>
+								</ul>
+							</div>
+							<div class="mask2"></div>
+						</ul>
+						<ul class="content_xuanxiang">
+							<li class="head_xuanxiang"></li>
+							<div id="song_num">3</div>
+							<li class="head_song" title="Silent Oath"><a href="#" id="songthree">Silent Oath</a></li>
+							<li class="head_singer">Knights</li>
+							<li class="head_time">03:48</li>
+							<div class="mask1">
+								<ul>
+									<li class="li1"></li>
+									<li class="li2"></li>
+									<li class="li3"></li>
+									<li class="li4"></li>
+								</ul>
+							</div>
+							<div class="mask2"></div>
+						</ul>
+						<ul class="content_xuanxiang">
+							<li class="head_xuanxiang"></li>
+							<div id="song_num">4</div>
+							<li class="head_song" title="Someone Like You">Someone Like You</li>
+							<li class="head_singer">Adele</li>
+							<li class="head_time">04:47</li>
+							<div class="mask1">
+								<ul>
+									<li class="li1"></li>
+									<li class="li2"></li>
+									<li class="li3"></li>
+									<li class="li4"></li>
+								</ul>
+							</div>
+							<div class="mask2"></div>
+						</ul>
+						<ul class="content_xuanxiang">
+							<li class="head_xuanxiang"></li>
+							<div id="song_num">5</div>
+							<li class="head_song" title="Set Fire To The Rain">Set Fire To The Rain</li>
+							<li class="head_singer">Adele</li>
+							<li class="head_time">03:48</li>
+							<div class="mask1">
+								<ul>
+									<li class="li1"></li>
+									<li class="li2"></li>
+									<li class="li3"></li>
+									<li class="li4"></li>
+								</ul>
+							</div>
+							<div class="mask2"></div>
+						</ul>
+						<ul class="content_xuanxiang">
+							<li class="head_xuanxiang"></li>
+							<div id="song_num">6</div>
+							<li class="head_song" title="Make You Feel My Love">Make You Feel My Love</li>
+							<li class="head_singer">Adele</li>
+							<li class="head_time">03:40</li>
+							<div class="mask1">
+								<ul>
+									<li class="li1"></li>
+									<li class="li2"></li>
+									<li class="li3"></li>
+									<li class="li4"></li>
+								</ul>
+							</div>
+							<div class="mask2"></div>
+						</ul>
+						<ul class="content_xuanxiang">
+							<li class="head_xuanxiang"></li>
+							<div id="song_num">7</div>
+							<li class="head_song" title="Chasing Pavements">Chasing Pavements</li>
+							<li class="head_singer">Adele</li>
+							<li class="head_time">03:31</li>
+							<div class="mask1">
+								<ul>
+									<li class="li1"></li>
+									<li class="li2"></li>
+									<li class="li3"></li>
+									<li class="li4"></li>
+								</ul>
+							</div>
+							<div class="mask2"></div>
+						</ul>
+						<ul class="content_xuanxiang">
+							<li class="head_xuanxiang"></li>
+							<div id="song_num">8</div>
+							<li class="head_song" title="Skyfall">Skyfall</li>
+							<li class="head_singer">Adele</li>
+							<li class="head_time">04:06</li>
+							<div class="mask1">
+								<ul>
+									<li class="li1"></li>
+									<li class="li2"></li>
+									<li class="li3"></li>
+									<li class="li4"></li>
+								</ul>
+							</div>
+							<div class="mask2"></div>
+						</ul>
+						<ul class="content_xuanxiang">
+							<li class="head_xuanxiang"></li>
+							<div id="song_num">9</div>
+							<li class="head_song" title="When We Were Young">When We Were Young</li>
+							<li class="head_singer">Adele</li>
+							<li class="head_time">04:51</li>
+							<div class="mask1">
+								<ul>
+									<li class="li1"></li>
+									<li class="li2"></li>
+									<li class="li3"></li>
+									<li class="li4"></li>
+								</ul>
+							</div>
+							<div class="mask2"></div>
+						</ul>
+						<ul class="content_xuanxiang">
+							<li class="head_xuanxiang"></li>
+							<div id="song_num">10</div>
+							<li class="head_song" title="Dont You Remember">Dont You Remember</li>
+							<li class="head_singer">Adele</li>
+							<li class="head_time">04:03</li>
+							<div class="mask1">
+								<ul>
+									<li class="li1"></li>
+									<li class="li2"></li>
+									<li class="li3"></li>
+									<li class="li4"></li>
+								</ul>
+							</div>
+							<div class="mask2"></div>
+						</ul>
+						
+					</div>
+				</div>
+				<!--左侧列表结束-->
+				<!--右侧播放表和歌词开始-->
+				<div class="player_right">
+					<div class="bpic"><img src="img/com/album_cover_player.png"></div>
+					<div class="toppic"><img id="pic"></div>
+					<div class="txt">
+						<p>歌曲名：<a href="#" id="get_songname"></a></p>
+						<p>歌手名：<a href="#" id="get_singer"></a></p>
+						<p>专辑名：<a href="#" id="get_CD"></a></p>
+					</div>
+					<!--歌词开始-->
+					<div id="lryc">
+						<div id="page" >
+							
+						</div>
+					</div>
+					<audio src="" id="myMusic"></audio>
+					<textarea id="text" style="display:none">
+                   
+    				</textarea>
+					<textarea id="onesongtxt" style="display:none">
+						[00:00.32]I Wanna Get Love - 蔡徐坤 (August)
+						[00:00.59]词：蔡徐坤
+						[00:00.75]曲：蔡徐坤
+						[00:01.54]
+						[00:14.93]My baby girl
+						[00:17.39]
+						[00:18.63]You already know
+						[00:21.32]
+						[00:22.42]If u call me baby I will come so fast
+						[00:26.24]If u need me baby I will be your side
+						[00:29.54]对你的 body 着迷 baby girl
+						[00:31.55]
+						[00:33.16]对你已无法抗拒 baby girl
+						[00:36.36]
+						[00:37.05]If u call me baby I will come so fast
+						[00:40.84]If u need me baby I will be your side
+						[00:43.85]
+						[00:44.42]I wanna get love
+						[00:45.40]把你带回家
+						[00:46.22]把酒精都倒满音量开到最大
+						[00:48.18]I wanna get love
+						[00:48.99]防备放下
+						[00:49.90]想靠近你听一听闻一闻你的呼吸
+						[00:52.20]
+						[00:52.79]Yeye
+						[00:53.15]
+						[00:53.83]我对你已一见钟情
+						[00:55.23]下一秒就掉进陷阱
+						[00:57.35]I'm feeling feeling feeling
+						[00:58.41]
+						[00:59.11]没有兰博基尼带你去兜风
+						[01:00.79]没有 Richard Mille 戴在我手中
+						[01:02.63]Only things I can promise I'll never leave
+						[01:04.44]Cuz you are perfect from head down to toe so fantastic
+						[01:06.21]God d**n it ah yeah
+						[01:07.56]
+						[01:08.24]想每一天起床就看见你 hold you tight
+						[01:10.87]I really want you 24 7 to be mine
+						[01:13.37]We go party we go drink ladies check check check
+						[01:16.45]
+						[01:17.06]Cutie is shaking her body figure swag swag swag
+						[01:20.45]We feel right we born high
+						[01:22.68]Baby you are so sexy tonight
+						[01:24.43]My heart is beating for you girl lets take it slow
+						[01:26.72]
+						[01:27.59]My baby girl
+						[01:30.48]
+						[01:31.34]You already know
+						[01:34.09]
+						[01:35.16]If u call me baby I will come so fast
+						[01:38.95]If u need me baby I will be your side
+						[01:42.43]对你的 body 着迷 baby girl
+						[01:44.89]
+						[01:45.92]对你已无法抗拒 baby girl
+						[01:49.08]
+						[01:49.77]If u call me baby I will come so fast
+						[01:53.48]If u need me baby I will be your side
+						[01:57.08]把手放在我的肩上 趁着天还没亮
+						[02:00.52]你的眼睛写满欲望 房间只有我俩
+						[02:03.80]
+						[02:04.33]你的香水被我吸进肺里
+						[02:05.54]我已无法抗拒
+						[02:06.27]Baby girl I want u so bad
+						[02:07.56]
+						[02:08.07]不能多看一秒你的嘴唇
+						[02:09.51]无法做到不吻下去
+						[02:10.79]You know that
+						[02:11.72]I torture you you torture me what a torture be
+						[02:13.60]No intention no addiction no ulterior motives
+						[02:15.33]I've been looking forward to doing this
+						[02:17.18]Let me touch whole your body
+						[02:18.35]
+						[02:19.05]把游戏玩得漂亮衣服穿得夸张
+						[02:21.05]带着面具假装捧场
+						[02:22.65]我已经久经沙场穿着名牌
+						[02:24.34]登场带走你的姑娘
+						[02:26.04]We go party we go drink ladies check check check
+						[02:29.56]Cutie is shaking her body figure swag swag swag
+						[02:32.92]
+						[02:33.53]We feel right we born high
+						[02:35.24]Baby you are so sexy tonight
+						[02:37.18]My heart is beating for you girl lets take it slow
+						[02:39.83]
+						[02:40.43]My baby girl
+						[02:43.23]
+						[02:44.12]You already know
+						[02:47.01]
+						[02:47.81]If u call me baby I will come so fast
+						[02:51.77]If u need me baby I will be your side
+						[02:55.15]对你的 body 着迷 baby girl
+						[02:57.60]
+						[02:58.62]对你已无法抗拒 baby girl
+						[03:01.55]
+						[03:02.52]If u call me baby I will come so fast
+						[03:06.23]If u need me
+						[03:07.12]
+						[03:07.93]Yeah I wanna get love
+					</textarea>
+					<textarea id="twosongtxt" style="display:none">
+						
+						[00:00.10]Million Years Ago (很久以前) - Adele (阿黛尔)
+						[00:00.20]Written by：Adele Adkins/Greg Kurstin
+						[00:00.30]
+						[00:03.06]I only wanted to have fun
+						[00:07.44]
+						[00:08.30]Learning to fly learning to run
+						[00:11.69]
+						[00:12.47]I let my heart decide the way
+						[00:16.19]
+						[00:16.97]When I was young
+						[00:20.77]
+						[00:21.30]Deep down I must have always known
+						[00:25.40]
+						[00:26.12]That this would be inevitable
+						[00:29.86]
+						[00:30.72]To earn my stripes I'd have to pay
+						[00:34.60]
+						[00:35.15]And bare my soul
+						[00:38.78]
+						[00:53.12]I know I'm not the only one
+						[00:57.33]
+						[00:58.44]Who regrets the things they've done
+						[01:02.38]Sometimes I just feel it's only me
+						[01:06.54]Who can't stand the reflection that they see
+						[01:11.43]I wish I could live a little more
+						[01:15.95]Look up to the sky not just the floor
+						[01:20.45]I feel like my life is flashing by
+						[01:24.97]And all I can do is watch and cry
+						[01:29.56]I miss the air I miss my friends
+						[01:34.19]I miss my mother I miss it when
+						[01:38.00]
+						[01:38.75]Life was a party to be thrown
+						[01:42.94]But that was a million years ago
+						[01:48.11]
+						[01:51.80]When I walk around all of the streets
+						[01:55.96]
+						[01:56.71]Where I grew up and found my feet
+						[02:00.77]
+						[02:01.28]They can't look me in the eye
+						[02:05.27]It's like they're scared of me
+						[02:09.30]
+						[02:09.98]I try to think of things to say
+						[02:14.19]
+						[02:15.44]Like a joke or a memory
+						[02:19.32]But they don't recognise me now
+						[02:23.55]In the light of day
+						[02:27.83]
+						[02:41.78]I know I'm not the only one
+						[02:46.03]
+						[02:47.14]Who regrets the things they've done
+						[02:51.08]Sometimes I just feel it's only me
+						[02:55.18]Never became who they thought they'd be
+						[03:00.09]I wish I could live a little more
+						[03:04.48]Look up to the sky not just the floor
+						[03:08.99]I feel like my life is flashing by
+						[03:13.66]And all I can do is watch and cry
+						[03:18.32]I miss the air I miss my friends
+						[03:22.83]I miss my mother I miss it when
+						[03:27.15]Life was a party to be thrown
+						[03:31.68]But that was a million years ago
+						[03:36.34]
+						[03:37.49]A million years ago
+					</textarea>
+					<textarea id="threesongtxt" style="display:none">
+						[00:00.04]Silent Oath - Knights
+						[00:00.55]词：松井洋平
+						[00:00.69]曲：山木隆一郎
+						[00:01.11]
+						[00:17.09]ふっと
+						[00:18.15]柔らかな風が髪を靡かせて
+						[00:22.60]
+						[00:24.25]もっとこちらへと
+						[00:26.91]手招きしてるようだ
+						[00:29.62]
+						[00:30.75]決して許されることは無いと
+						[00:34.03]知っても心に募ってく
+						[00:37.99]貴女への忠誠の器から
+						[00:44.15]嗚呼零れていくね
+						[00:46.43]Dear moon light
+						[00:48.13]照らし出さないで欲しい
+						[00:50.20]Moon light
+						[00:51.69]消え去ってしまうから
+						[00:53.88]I wear the pitch black night
+						[00:57.23]寄り添う影の様に護りたい
+						[01:00.63]清らかな永遠を此処に
+						[01:04.21]Silent oath
+						[01:05.09]ずっと伝えないままに
+						[01:07.82]この胸に秘めた言葉
+						[01:14.97]
+						[01:15.57]貴女に捧げた剣と共に
+						[01:19.99]我が身に掛けた鍵は
+						[01:22.85]誇らしく痛む誓い
+						[01:29.83]時の過ぎ行くままに
+						[01:32.53]今は
+						[01:33.66]そうさ
+						[01:34.90]離れずに傍らにいるだけでいい
+						[01:39.64]
+						[01:41.27]こんな
+						[01:42.27]孤独さえ抱えて歩き出そう
+						[01:46.80]
+						[01:47.71]深い森に囲まれた城の
+						[01:50.90]窓から夜空の美しい
+						[01:54.34]
+						[01:54.95]星だけを見て欲しい
+						[01:58.59]貴女には
+						[02:00.53]
+						[02:01.07]汚れ無きまま
+						[02:03.32]Dear moon light
+						[02:04.91]照らし出さないで欲しい
+						[02:07.11]Moon light
+						[02:08.67]争いに満ちた世界
+						[02:10.72]Lady please stay in peace
+						[02:14.13]陽の当たる場所まで誘おう
+						[02:17.50]清らかな永遠に相応しい貴女の
+						[02:21.91]柔らかな微笑みに
+						[02:24.74]この胸は揺れるけれど
+						[02:31.66]
+						[02:32.44]水面に映る月と
+						[02:35.24]おなじことと心をそっと閉じて
+						[02:39.76]誇らしく痛む誓い
+						[02:46.69]今日も抱えていよう
+						[02:49.56]
+						[02:50.34]瞳に映る月が
+						[02:53.54]
+						[02:54.09]暁に消えていく景色
+						[02:57.13]
+						[02:57.89]時の流れ行くままに
+						[03:01.00]
+						[03:03.63]言葉にすることさえも許されぬ
+						[03:10.98]咲くことの無い花の名前
+						[03:17.31]忘れて
+						[03:19.61]
+						[03:20.22]My dear
+						[03:21.74]優しいその声に
+						[03:23.88]My dear
+						[03:25.45]溢れてしまわぬよう
+						[03:27.49]My dear
+						[03:29.14]心に掛けた鍵
+						[03:31.27]My dear
+						[03:32.93]水底に沈めた
+						[03:35.08]Dear moon light
+						[03:36.88]照らし出さないで欲しい
+						[03:39.11]Moon light
+						[03:40.43]自ら消えるから
+						[03:42.66]いつか貴女に
+						[03:45.79]幸せが訪れるその時
+						[03:50.59]
+						[03:51.19]清らかな永遠を此処に
+						[03:54.69]Silent oath
+						[03:55.67]ずっと伝えないままに
+						[03:58.68]この胸に秘めた言葉
+						[04:04.71]
+						[04:06.19]貴女に捧げた剣と共に
+						[04:10.62]我が身に掛けた鍵は
+						[04:13.41]誇らしく痛む誓い
+						[04:20.20]
+						[04:21.12]清らかな永遠に相応しい貴女の
+						[04:25.63]柔らかな微笑みに
+						[04:28.46]この胸が揺れた理由は
+						[04:35.30]
+						[04:36.19]水面に映る月に投げた鍵が
+						[04:40.58]さざ波をたてたからさ
+						[04:43.42]仕舞い込む淡い『想い』
+						[04:49.55]
+						[04:50.51]時の過ぎ行くままに
+						[04:53.14]今は
+						[04:53.78]
+						[04:56.10]ずっと抱えていよう
+						[04:58.75]
+						[05:00.12]瞳に映した光
+						[05:02.53]
+						[05:03.63]誇らしく痛む誓いだけをずっと
+					</textarea>
+					<!--歌词结束-->
+				</div>
+				<!--右侧播放表和歌词结束-->
+			</div>
+			<!--播放列表结束-->
+			<!--进度条开始-->
+			<div class="pro">
+				
+				<ul>
+					<li><a class="anjian1" href="#" id="up"></a></li>
+					<li><a class="anjian2" href="#" id="play"></a></li>
+					<li><a class="anjian3" href="#" id="next"></a></li>
+			    </ul>
+				
+				
+	    	   <span id="name"></span>
+	    	    <div class="jindu"><span id="str">00:00</span><span>/</span><span id="end">00:00</span></div> 
+		        <div class="tiao">
+	        		<img src="img/com/进度条.png" width="500" height="20" id="jdt">
+		        </div>
+		       	<ul class="rightanjian">
+		        	<li><a href="#" class="anjian4"></a></li>
+		        	<li><a href="#" class="anjian5"></a></li>
+		        	<li><a href="#" class="anjian6"></a></li>
+		        	<li><a href="#" class="anjian7"></a></li>
+		        	<li><a href="#" class="anjian8"></a></li>
+		        	<li><a href="#" class="anjian9"></a></li>
+		        </ul>
+		 
+	        </div>
+			<!--进度条结束-->
+		</div>
+		<!--中间部分结束-->
+		<div class="bg_player_mask" id="bg_mask"></div>
+		<div class="bg_player" id="bg_pic"></div>
+	<script type="text/javascript" src="js/title.js" ></script>
+	<script type="text/javascript" src="js/lyric.js" ></script>
+	<script type="text/javascript" src="js/jquery-2.1.0.js" ></script>
+	<script type="text/javascript" src="js/inpu.js" ></script>
+	
+	</body>
+</html>
