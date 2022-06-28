@@ -1,0 +1,19 @@
+.topTurn{
+	background:url(../img/banner_thumb_3.jpg);
+}
+.topTurn-h{
+	margin: 300px auto 0 auto;
+	display: inline-block;
+	width: 500px;
+	height: 100px;
+	background: url(../img/sprite_index_banner.png)0 -200px;
+}
+.topTurn-span{
+	display: inline-block;
+	background: url(../img/sprite_index_banner.png) -54px -360px;
+	width: 392px;
+	height: 32px;
+}
+.topTurn3{
+	background: url(../img/sprite_index_banner.png) -809px -207px;
+}
