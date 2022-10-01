@@ -1,0 +1,60 @@
+.container{
+  max-width: 2400px;
+}
+.img-container{
+  position: relative;
+  height: auto;
+  width: 100%;
+  padding-top: 100%;
+  display: block;
+  object-fit: cover;
+}
+.autofix{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+a{
+  text-decoration:none;
+  color: black;
+}
+p{
+  text-align: left;
+}
+
+.filter{
+  max-width: 1500px;
+  margin: auto;
+  margin-bottom: 2em;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.conatiner-detail{
+  margin: auto;
+  max-width: 1500px;
+  padding-top: 5em;
+  
+}
+#detail{
+  text-align: center;
+}
+.detailimg{
+  
+  width: 80%;
+  height: auto;
+}
